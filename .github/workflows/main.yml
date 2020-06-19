@@ -20,4 +20,5 @@ jobs:
       - name: Install SURGE
         run: npm install -g surge
 
-      - name: Upload site
+      - name: Run Surge
+        run: surge ./build project_waleed.surge.sh --token ${{ secrets.SURGE_TOKEN }}
