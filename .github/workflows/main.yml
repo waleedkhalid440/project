@@ -17,7 +17,7 @@ jobs:
         run: npm update caniuse-lite browserslist
       - name: Build React App
         run: CI=false npm run build
-      - name: Install Surge
-        run: npm install -g surge
-      - name: Run surge
-        run: surge ./build project.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+     - name: Install SURGE
+       run: npm i -g surge
+
+     - name: Upload site
