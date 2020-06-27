@@ -6,7 +6,6 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-  <div>Hello World</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
